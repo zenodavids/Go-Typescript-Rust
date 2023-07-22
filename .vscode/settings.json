@@ -1,0 +1,24 @@
+{
+  "cSpell.words": ["Chidozie", "Ezeanekwe"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#b43a12",
+    "activityBar.background": "#b43a12",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#11ae38",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#b43a12",
+    "statusBar.background": "#862b0d",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#b43a12",
+    "statusBarItem.remoteBackground": "#862b0d",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#862b0d",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#862b0d99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#862B0D",
+  "C_Cpp.errorSquiggles": "enabled"
+}

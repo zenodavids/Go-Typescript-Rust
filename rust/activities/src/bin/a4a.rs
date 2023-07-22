@@ -8,9 +8,9 @@
 // * Use a match expression to determine which message to display
 
 fn main() {
-    let witness = true;
-    match witness {
-        true => println!("it's true"),
-        false => println!("it's false"),
+    let he_lives = true;
+    match he_lives {
+        true => println!("indeed, God lives"),
+        false => println!("it's false? Satan, you lie"),
     }
 }

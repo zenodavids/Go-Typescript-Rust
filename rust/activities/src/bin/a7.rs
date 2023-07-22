@@ -17,9 +17,9 @@ enum Color {
 
 fn color_name(pick: Color) {
     match pick {
-        Color::RED => println!("Red"),
-        Color::GREEN => println!("Green"),
-        Color::BLUE => println!("Blue"),
+        Color::RED => println!("I will get a Red Car🛻\n for me!"),
+        Color::GREEN => println!("A Green and soft waterbed"),
+        Color::BLUE => println!("and a Blue jet✈️ for Bee!"),
     }
 }
 

@@ -8,29 +8,18 @@
 // * Use a function to display the result
 // * use the "{:?}" taken in the println macro to display the result.
 
-fn add(b: i32, z: i32) -> i32 {
-    b + z
+// * Use a function to add two numbers together
+fn add(a: i32, b: i32) -> i32 {
+    a + b
 }
-// ============> option 1
-
-// fn display_result() {
-//     let c = add(3, 4);
-//     println!("{:?}", c);
-// }
-
-// fn main() {
-//     display_result()
-// }
-
-// ===========> option 2
-
-fn display_result(result: i32) {
+// * Use a function to display the result
+fn display(result: i32) {
+    // * use the "{:?}" taken in the println macro to display the result.
     println!("{:?}", result);
 }
-
 fn main() {
     let result = add(2, 3);
-    display_result(result);
+    display(result);
 }
 
 // to run any activity: cargo run --bin filename

@@ -1,7 +1,7 @@
-### start a new rust project:
+> start a new rust project:
 
 ```sh
-cargo init project_name
+cargo init project_name && cd project_name
 ```
 
 > **Never use the _mut_ keyword unless you _really_ need to**
@@ -26,7 +26,7 @@ fn main(){
 
 > You can have has many references as you like with the constraints that there are **no Mutable References alive**
 
-Can make reference to the value - this means **point to the location where it is stored in memory without actually copying it**. It's like telling someone where a toy is located without actually giving them the toy to play with. In programming, making a reference to a value allows you **to use that value without making a copy of it, which can save time and memory**.
+**_Can make reference to the value_** - this means **point to the location where it is stored in memory without actually copying it**. It's like telling someone where a toy is located without actually giving them the toy to play with. In programming, making a reference to a value allows you **to use that value without making a copy of it, which can save time and memory**.
 
 ```rs
 fn main(){

@@ -8,14 +8,14 @@
 // * Use a match expression to determine which message to display
 // * use an underscore (_) o match any variable
 
-fn main (){
-  let num = 2;
+fn main() {
+    let num = 2;
 
-  match num{
-    1 => println!("one"),
-    2 => println!("two"),
-    3 => println!("three"),
-    _ => println!("other"),
-  }
-
+    match num {
+        // between 1 to 9
+        1..=9 => println!("between one through nine"),
+        // 2 => println!("two"), uncommenting this will cause an error because "1 to 9 above already has 2 and 3"
+        // 3 => println!("three"), uncommenting this will cause an error because "1 to 9 above already has 2 and 3"
+        _ => println!("other"),
+    }
 }

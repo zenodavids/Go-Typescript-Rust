@@ -22,7 +22,8 @@ fn main() {
             //  Use break to exit the loop
             break;
         }
+        // increment i by 1 until
         num += 1;
     }
-    println!("Done!");
+    println!(" we done did it!");
 }

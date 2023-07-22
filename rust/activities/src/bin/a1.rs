@@ -20,5 +20,5 @@ fn main() {
     first_name();
     last_name();
 }
-// to run any activity: cargo run --bin filename
-// to run any activity and you dont want to show process: cargo run -q --bin filename
+// to run any activity, in the 'activity' directory: cargo run --bin filename
+// to run any activity and you don't want to show process: cargo run -q --bin filename
